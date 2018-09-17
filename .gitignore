@@ -1,0 +1,9 @@
+.cache
+.DS_Store
+.merlin
+.bsb.lock
+yarn-error.log
+/src/*.bs.js
+/dist/
+/lib/bs/
+/node_modules/

@@ -1,0 +1,23 @@
+{
+  "name": "bs-tea-starter",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "bsb -make-world",
+    "start": "parcel index.html",
+    "clean": "bsb -clean-world"
+  },
+  "keywords": [
+    "BuckleScript"
+  ],
+  "author": "Kevin Combriat",
+  "license": "MIT",
+  "devDependencies": {
+    "bs-platform": "^4.0.5",
+    "parcel-bundler": "^1.9.7"
+  },
+  "dependencies": {
+    "@glennsl/bs-json": "^3.0.0",
+    "bucklescript-tea": "^0.7.5",
+    "qs": "^6.5.2"
+  }
+}
